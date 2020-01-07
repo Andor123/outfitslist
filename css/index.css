@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+}
+.black {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+.darkred {
+	background-color: rgba(64, 0, 0, 1);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+.darkgreen {
+	background-color: rgba(0, 64, 0, 1);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+.darkblue {
+	background-color: rgba(0, 0, 64, 1);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+.outfitslist {
+	background-color: rgba(255, 128, 0, 1);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}

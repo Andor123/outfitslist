@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+	background-color: rgba(0, 0, 64, 0.5);
+	color: black;
+}
+.image {
+	width: 100px;
+	height: 50px;
+}
