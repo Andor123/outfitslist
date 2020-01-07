@@ -11,6 +11,7 @@ include('config.php');
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
+	<h1>Hello</h1>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col">
