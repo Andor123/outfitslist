@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Jan 07. 12:25
+-- Létrehozás ideje: 2020. Jan 14. 08:16
 -- Kiszolgáló verziója: 10.4.10-MariaDB
 -- PHP verzió: 7.3.12
 
@@ -352,7 +352,7 @@ INSERT INTO `clubstable` (`id`, `outfit_id`, `club_image`, `name`, `country`) VA
 (309, 8, 'https://upload.wikimedia.org/wikipedia/en/7/70/Newtown_FC.PNG', 'Newtown AFC', 'United Kingdom (Wales)'),
 (310, 8, 'https://upload.wikimedia.org/wikipedia/cy/thumb/3/37/Logo_caernarfon.gif/180px-Logo_caernarfon.gif', 'Caernarfon Town', 'United Kingdom (Wales)'),
 (311, 8, 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Cardiff_Metropolitan_University_F.C..png/220px-Cardiff_Metropolitan_University_F.C..png', 'Cardiff Metropolitan University', 'United Kingdom (Wales)'),
-(312, 9, 'https://upload.wikimedia.org/wikipedia/en/thumb/0/04/AbahaniDhaka.png/220px-AbahaniDhaka.png', 'Dhaka Abahani', 'Bangladesh'),
+(312, 9, 'https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Abahani_Limited_Dhaka_official_logo.png/220px-Abahani_Limited_Dhaka_official_logo.png', 'Dhaka Abahani', 'Bangladesh'),
 (313, 9, 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Police_Tero%2C_2018.png/160px-Police_Tero%2C_2018.png', 'Police Tero FC', 'Thailand'),
 (314, 9, 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Chiangrai_utd.png/180px-Chiangrai_utd.png', 'Chiangrai United FC', 'Thailand'),
 (315, 9, 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Phichit_F.C..png/180px-Phichit_F.C..png', 'Phichit FC', 'Thailand'),
