@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Jan 20. 11:20
+-- Létrehozás ideje: 2020. Jan 24. 10:32
 -- Kiszolgáló verziója: 10.4.10-MariaDB
 -- PHP verzió: 7.3.12
 
@@ -811,7 +811,7 @@ INSERT INTO `clubstable` (`id`, `outfit_id`, `club_image`, `name`, `country`) VA
 (766, 15, 'https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Brescia_calcio_badge.svg/220px-Brescia_calcio_badge.svg.png', 'Brescia', 'Italy'),
 (767, 15, 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Empoli_FC_1920.png/185px-Empoli_FC_1920.png', 'Empoli', 'Italy'),
 (768, 15, 'https://upload.wikimedia.org/wikipedia/en/4/4e/Genoa_cfc.png', 'Genoa', 'Italy'),
-(769, 15, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/S.S.C._Napoli_logo.svg/200px-S.S.C._Napoli_logo.svg.png', 'Napoli', 'Italy'),
+(769, 15, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/180px-SSC_Neapel.svg.png', 'Napoli', 'Italy'),
 (770, 15, 'https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Palermo_Calcio_logo_%282019%29.svg/200px-Palermo_Calcio_logo_%282019%29.svg.png', 'Palermo', 'Italy'),
 (771, 15, 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/200px-US_Sassuolo_Calcio_logo.svg.png', 'Sassuolo', 'Italy'),
 (772, 15, 'https://upload.wikimedia.org/wikipedia/en/7/7b/New_logo_of_Calcio_Padova_football_club.png', 'Padova', 'Italy'),
@@ -1352,7 +1352,7 @@ INSERT INTO `clubstable` (`id`, `outfit_id`, `club_image`, `name`, `country`) VA
 (1306, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/200px-Sevilla_FC_logo.svg.png', 'Sevilla', 'Spain'),
 (1307, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/M%C3%A1laga_CF.svg/150px-M%C3%A1laga_CF.svg.png', 'Málaga', 'Spain'),
 (1308, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Real_Sporting_de_Gijon.svg/150px-Real_Sporting_de_Gijon.svg.png', 'Sporting Gijón', 'Spain'),
-(1309, 23, 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Granadacf.png', 'Granada', 'Spain'),
+(1309, 23, 'https://upload.wikimedia.org/wikipedia/de/thumb/d/d3/Granada_CF.svg/120px-Granada_CF.svg.png', 'Granada', 'Spain'),
 (1310, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/AFC_Eskilstuna_logo.svg/150px-AFC_Eskilstuna_logo.svg.png', 'AFC Eskilstuna', 'Sweden'),
 (1311, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/AIK_logo.svg/180px-AIK_logo.svg.png', 'AIK', 'Sweden'),
 (1312, 23, 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Falkenbergs_FF_new_logo.svg/220px-Falkenbergs_FF_new_logo.svg.png', 'Falkenberg', 'Sweden'),
@@ -1432,7 +1432,7 @@ INSERT INTO `clubstable` (`id`, `outfit_id`, `club_image`, `name`, `country`) VA
 (1385, 27, 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/OsakaFC.png/150px-OsakaFC.png', 'Cerezo Osaka', 'Japan'),
 (1386, 27, 'https://upload.wikimedia.org/wikipedia/en/2/2a/J%C3%BAbiloIwata.png', 'Júbilo Iwata', 'Japan'),
 (1387, 27, 'https://upload.wikimedia.org/wikipedia/en/7/74/KawasakiFrontale.png', 'Kawasaki Frontale', 'Japan'),
-(1388, 27, 'https://upload.wikimedia.org/wikipedia/en/4/4c/ShimizuS-Pulse.png', 'Shimizu S-Pulse', 'Japan'),
+(1388, 27, 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Shimizu_S-Pulse_emblem_since_2020.png/140px-Shimizu_S-Pulse_emblem_since_2020.png', 'Shimizu S-Pulse', 'Japan'),
 (1389, 27, 'https://upload.wikimedia.org/wikipedia/en/0/0f/OitaTrinita.png', 'Ōita Trinita', 'Japan'),
 (1390, 27, 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Roasso_Kumamoto_logo.png/200px-Roasso_Kumamoto_logo.png', 'Roasso Kumamoto', 'Japan'),
 (1391, 27, 'https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PJ_City_FC_logo.png/220px-PJ_City_FC_logo.png', 'Petaling Jaya City FC', 'Malaysia'),
