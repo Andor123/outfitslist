@@ -1,14 +1,14 @@
 <?php
 include('../config.php');
-if (isset($_POST["name"])) 
+if (isset($_POST["name"]))
 {
 	$name = $_POST["name"];
-	$sql = "SELECT cl.club_image, cl.name, cl.country FROM outfitstable ot INNER JOIN clubstable cl ON ot.id=cl.outfit_id WHERE cl.outfit_id=24 AND ot.name='Nivia' AND cl.name LIKE '%$name%' ORDER BY cl.name";
+	$sql = "SELECT cl.id, cl.club_image, cl.name, cl.country FROM outfitstable ot INNER JOIN clubstable cl ON ot.id=cl.outfit_id WHERE cl.outfit_id=24 AND ot.name='Nivia' AND cl.name LIKE '%$name%' ORDER BY cl.id";
 	$result = mysqli_query($connection, $sql);
 }
-else 
+else
 {
-	$sql = "SELECT cl.club_image, cl.name, cl.country FROM outfitstable ot INNER JOIN clubstable cl ON ot.id=cl.outfit_id WHERE cl.outfit_id=24 AND ot.name='Nivia' ORDER BY cl.name";
+	$sql = "SELECT cl.id, cl.club_image, cl.name, cl.country FROM outfitstable ot INNER JOIN clubstable cl ON ot.id=cl.outfit_id WHERE cl.outfit_id=24 AND ot.name='Nivia' ORDER BY cl.id";
 	$result = mysqli_query($connection, $sql);
 }
 ?>
@@ -48,6 +48,7 @@ else
 				<table class="table" align="center">
 					<thead>
 						<tr>
+							<th>ID</th>
 							<th>Image</th>
 							<th>Name</th>
 							<th>Country</th>
@@ -55,12 +56,13 @@ else
 					</thead>
 					<tbody>
 						<?php
-						if (mysqli_num_rows($result) > 0) 
+						if (mysqli_num_rows($result) > 0)
 						{
-							while ($row = mysqli_fetch_array($result)) 
+							while ($row = mysqli_fetch_array($result))
 							{
 								?>
 								<tr>
+									<td><?php echo $row['id']; ?></td>
 									<td><img class="image" alt="image" src="<?php echo $row['club_image']; ?>"></td>
 									<td><?php echo $row['name']; ?></td>
 									<td><?php echo $row['country']; ?></td>
